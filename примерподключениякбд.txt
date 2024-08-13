@@ -1,1 +1,0 @@
-DATABASE_URL=postgresql://user1:Qwerty123.@79.174.88.14:17205/db1
