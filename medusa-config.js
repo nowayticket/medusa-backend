@@ -1,3 +1,4 @@
+
 const dotenv = require("dotenv");
 
 let ENV_FILE_NAME = "";
@@ -59,9 +60,6 @@ const plugins = [
       },
     },
   },
-
-
-  
   {
     resolve: `medusa-plugin-sendgrid`,
     options: {
@@ -76,10 +74,7 @@ const plugins = [
         },
       },
     },
-
-
-
-
+  }
 ];
 
 const modules = {
