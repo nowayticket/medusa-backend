@@ -63,8 +63,8 @@ const plugins = [
     resolve: `medusa-plugin-meilisearch`,
     options: {
       config: {
-        host: "https://ms-31f101b00b05-12337.nyc.meilisearch.io",
-        apiKey: "90a9af92e053044e3422ae50711d2c65eda58b96dcc80b3392608aa15430526d",
+        host: process.env.MEILISEARCH_HOST,
+        apiKey: process.env.MEILISEARCH_API_KEY,
       },
       settings: {
         products: {
